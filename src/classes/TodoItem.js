@@ -5,7 +5,7 @@ export default class TodoItem {
     this.dueDate = dueDate;
     this.priority = priority;
     this.notes = notes;
-    this.id = Math.floor(Math.random() * 100);
+    this.id = Math.floor(Math.random() * 100); // TODO: update to use uuid
   }
 
   //change title
